@@ -1,0 +1,72 @@
+.resident {
+    max-width: 320px;
+    border-radius: 0.8rem;
+    background-color: #062226;
+    border: 2px solid #178c44;
+    overflow: hidden;
+    box-shadow: 0.2rem 0.2rem 0.5rem hsla(97, 48%, 71%, 0.856);
+}
+
+.resident__header {
+    position: relative;
+}
+
+.resident__status {
+    position: absolute;
+    background-color: #062226;
+    top: 15%;
+    width: auto;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.resident__status--circle {
+    width: 15px;
+    background-color: rgb(167, 160, 160);
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.Alive {
+    background-color: green;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.resident__main {
+    padding: 1.5rem 1.2rem 2rem;
+}
+
+.resident__name {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.resident__hr {
+    border-color: #178c44;
+    opacity: 0.5;
+}
+
+.resident__list {
+    display: grid;
+    gap: 1rem;
+}
+
+.resident__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.resident__item--label {
+    font-size: 0.9rem;
+    color: #aaa;
+    font-weight: 300;
+}

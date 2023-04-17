@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Get Schwifty';
+    src: url('./public/get-schwifty/get_schwifty.ttf') format('truetype');
+}
+
+.location {
+    padding: 2rem;
+    border-radius: 0.8rem;
+    background-color: #062226;
+    max-width: 600px;
+    margin: 2rem auto;
+    border: 1px solid #178c44;
+    box-shadow: 0.2rem 0.2rem 0.5rem hsla(97, 48%, 71%, 0.856);
+}
+
+.location__name {
+    text-align: center;
+    font-family: 'Get Schwifty';
+    color: #00afc7;
+    -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.63);
+    font-weight: 600;
+    font-size: 35px;
+    text-shadow: -2px -2px 2px #7fd04b, 2px -2px 2px #7fd04b, -2px 2px 2px #7fd04b, 2px 2px 2px #7fd04b;
+}
+
+.location__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+.location__label {
+    color: white;
+}
+
+.location__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    color: #aaa;
+    font-weight: 600;
+}

@@ -1,0 +1,65 @@
+.app {
+    background-color: #05292E;
+    min-height: 100vh;
+}
+
+.app__header {
+    height: 120px;
+}
+
+.app__header--background {
+    background-image: url('https://img.freepik.com/fotos-premium/fondo-abstracto-portal-fractal-verde_608068-2021.jpg?w=900');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    padding: 0 1rem;
+    min-width: 400px;
+}
+
+.app__header--img {
+    background-image: url('https://www.freepnglogos.com/uploads/rick-and-morty-png/rick-and-morty-portal-moon-mod-download-35.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    width: 100%;
+}
+
+.app__header--title {
+    background-image: url('https://www.freepnglogos.com/uploads/rick-and-morty-png/list-rick-and-morty-episodes-wikipedia-24.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    width: 100%;
+}
+
+.app__form {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.app__input {
+    width: 40%;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.app__btn {
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 0 1rem;
+    background-color: #b4d546;
+    color: #178c44;
+    font-weight: 600;
+    -webkit-text-stroke: 0.3px black;
+    cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+    .app__header {
+        height: 250px;
+    }
+}
