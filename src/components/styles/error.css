@@ -8,15 +8,18 @@
 }
 
 .error__img {
-    background-image: url('./pngwing.com.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 200px;
     height: 50%;
     width: 90%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.error__img img {
+    width: 250px;
 }
 
 .error__title {
     text-align: center;
-    padding: 0 2.5rem;
+    padding: 0.5rem 2.5rem 0 2.5rem;
 }
