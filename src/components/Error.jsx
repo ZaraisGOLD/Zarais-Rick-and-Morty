@@ -7,7 +7,7 @@ const Error = () => {
             <div className='error__img'>
                 <img src="./public/pngwing.com.png" alt="" />
             </div>
-            <h2 className='error__title'>Hey! You must provide an id from 1 to 126</h2>
+            <h2 className='error__title'>Hey! You must provide an number from 1 to 126</h2>
         </div>
     )
 }
