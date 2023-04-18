@@ -4,6 +4,7 @@ import useFetch from './hooks/useFetch'
 import getRandomLocation from './utils/getRandomLocation'
 import MainContent from './components/MainContent'
 import Error from './components/Error'
+import "./fonts/get_schwifty.ttf";
 
 
 function App() {
