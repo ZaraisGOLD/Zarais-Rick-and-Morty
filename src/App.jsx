@@ -3,12 +3,12 @@ import './App.css'
 import useFetch from './hooks/useFetch'
 import getRandomLocation from './utils/getRandomLocation'
 import MainContent from './components/MainContent'
+import Error from './components/Error'
+
 
 function App() {
 
   const [inputValue, setInputValue] = useState(getRandomLocation())
-
-  const msgError = 'Hey! You must provide an id from 1 to 126'
 
   const url = `https://rickandmortyapi.com/api/location/${inputValue || msgError}`
   const [location, hasError] = useFetch(url)
@@ -35,7 +35,7 @@ function App() {
       </form>
       {
         hasError
-          ? <h2>{msgError}</h2>
+          ? <Error />
           : <MainContent location={location} />
       }
     </div>
